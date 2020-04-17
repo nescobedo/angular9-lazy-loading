@@ -1,10 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'ang9-lazy-loading';
+export class AppComponent implements OnInit {
+  title = 'Angular 9 : Lazy Loading';
+
+  constructor(public router: Router) {
+
+  }
+  ngOnInit() {
+
+  }
 }
