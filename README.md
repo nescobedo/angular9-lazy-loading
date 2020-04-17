@@ -10,9 +10,9 @@ In the end I forgot to consider that I was using the latest and greatest (Ivy) a
 **Angular 9:**  
  loadChildren: () => import('./orders/orders.module').then(m => m.OrdersModule)
 
-  
-    
-    
+  <br>
+  <br>
+<br>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
