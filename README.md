@@ -4,10 +4,10 @@ I've been creating a lot of angular repos lately and was setting up lazy loading
 
 In the end I forgot to consider that I was using the latest and greatest (Ivy) and that loadChildren process has changed.   
 
-**From this:**
+**From this:**  
   loadChildren: '../app/orders/orders.module#OrdersModule',
 
-**To this:**
+**To this:**  
  loadChildren: () => import('./orders/orders.module').then(m => m.OrdersModule)
 
 
