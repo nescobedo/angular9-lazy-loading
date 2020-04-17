@@ -4,13 +4,15 @@ I've been creating a lot of angular repos lately and was setting up lazy loading
 
 In the end I forgot to consider that I was using the latest and greatest (Ivy) and that loadChildren process has changed.   
 
-**From this:**  
+**Angular 8:**  
   loadChildren: '../app/orders/orders.module#OrdersModule',
 
-**To this:**  
+**Angular 9:**  
  loadChildren: () => import('./orders/orders.module').then(m => m.OrdersModule)
 
-
+  
+    
+    
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
