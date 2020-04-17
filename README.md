@@ -2,7 +2,7 @@
 
 I've been creating a lot of angular repos lately and was setting up lazy loading for a new app.  Should have been less then an hour to setup the modules and components I wanted but I kept getting errors when setting up child routes.  
 
-In the end I forgot to consider that I was using the latest and greatest (Ivy) and that loadChildren process has changed.   
+In the end I forgot that I was using the latest and greatest (Ivy) and that the loadChildren process was changed.   
 
 **Angular 8:**  
   loadChildren: '../app/orders/orders.module#OrdersModule',
