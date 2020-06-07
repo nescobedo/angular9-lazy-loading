@@ -1,4 +1,8 @@
-# Angular 9 LazyLoading Modules the Ivy way
+<p align="center">
+  <img src="http://gh-images.futurebutterflies.net/2020_fb.png">
+</p>
+
+<h1 align="center">Angular 9 LazyLoading Modules the Ivy way</h1>
 
 I've been creating a lot of angular repos lately and was setting up lazy loading for a new app.  Should have been less then an hour to setup the modules and components I wanted but I kept getting errors when setting up child routes.  
 
@@ -12,6 +16,8 @@ In the end I forgot that I was using the latest and greatest (Ivy) and that the 
 
   <br>
   <br>
+
+![divider](http://gh-images.futurebutterflies.net/divider.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
